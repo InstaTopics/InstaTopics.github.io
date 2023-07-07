@@ -1,0 +1,154 @@
+.box1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.box2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.box3 {
+    position: relative;
+    overflow: hidden;
+}
+
+.box4 {
+    position: relative;
+    overflow: hidden;
+}
+
+.box1::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 300%;           
+    background: linear-gradient(#D4AF37, #dfe767);
+    animation: animate 4s linear infinite;
+}
+.box1::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #3e3c3c;
+    border-radius: 16px;
+}
+
+.box1 h3 {
+    position: relative;
+    z-index: 10;
+}
+
+.box1 i {
+    z-index: 10;
+}
+
+.box1 p {
+    z-index: 10;
+}
+
+.box2::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 300%;           
+    background: linear-gradient(#D4AF37, #dfe767);
+    animation: animate 4s linear infinite;
+}
+.box2::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #3e3c3c;
+    border-radius: 16px;
+}
+
+.box2 h3 {
+    position: relative;
+    z-index: 10;
+}
+
+.box2 i {
+    position: relative;
+    z-index: 10;
+}
+
+.box2 p {
+    position: relative;
+    z-index: 10;
+}
+
+.box3::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 300%;           
+    background: linear-gradient(#D4AF37, #dfe767);
+    animation: animate 4s linear infinite;
+}
+.box3::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #3e3c3c;
+    border-radius: 16px;
+}
+
+.box3 h3 {
+    position: relative;
+    z-index: 10;
+}
+
+.box3 i {
+    position: relative;
+    z-index: 10;
+}
+
+.box3 p {
+    position: relative;
+    z-index: 10;
+}
+
+.box4::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 300%;           
+    background: linear-gradient(#D4AF37, #dfe767);
+    animation: animate 4s linear infinite;
+}
+
+.box4::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #3e3c3c;
+    border-radius: 16px;
+}
+
+.box4 h3 {
+    position: relative;
+    z-index: 10;
+}
+
+.box4 i {
+    position: relative;
+    z-index: 10;
+}
+
+.box4 p {
+    position: relative;
+    z-index: 10;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}

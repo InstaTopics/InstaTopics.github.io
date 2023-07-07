@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+
+    display: none;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #86857e;
+    transition: 0.5s;
+}
+
+.header {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/cesar-couto-sKuVjm0xyLY-unsplash.jpg) no-repeat center ;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 320%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #000000;
+    padding: 0 100px;
+}
+
+.btn:hover {
+    background: #888358;
+    transition: 0.5s;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 120px;
+    background: #171717;
+}
+
+.sau .title {
+    margin-bottom: 40px;
+    font-size: 320%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff; 
+}
+
+.sau p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 100px;  
+}
+
+.about {
+    padding: 100px;
+    background: #171717;
+}
+
+.about .title {
+    margin-bottom: 40px;
+    font-size: 320%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.about p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 100px; 
+} 
+
+.news {
+    padding: 100px;
+    background: url(img/cesar-couto-hNZ6WOOnQpk-unsplash.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding: 90px;
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0px;
+}
+
+.contact .title {
+    margin-bottom: 40px;
+    font-size: 320%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.contact p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 100px; 
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10% 30px;
+    border-radius: 1rem;
+    color: #000000;
+    text-decoration: none;
+    background:  #607b8c;
+}
+
+.btny { 
+    display: inline-block;
+    margin-top: 0,2px;
+    padding: 2% 30px;
+    border-radius: 1rem;
+    color: #fff;
+    text-decoration: none;
+    background:  #cb86d8;
+}
+
+.btny:hover {
+    background: #b9b37d;
+    transition: 0.5s;
+}
+
+.btnx {
+    display: inline-block;
+    
+    padding: 2% 30px;
+    border-radius: 1rem;
+    color: #000000;
+    text-decoration: none;
+    background:  #cb86d8;
+}
+.btnx:hover {
+    background: #b9b37d;
+    transition: 0.5s;
+}
+
+.btnlst {
+    display: inline-block;
+    padding: 2% 20px;
+    border-radius: 1rem;
+    color: #000;
+    text-decoration: none;
+    background: linear-gradient( #D4AF37, #dfe767, #D4AF37 );
+}
+
+.btnlst:hover {
+    background: #b9b37d;
+    transition: 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+h2[id] {
+    scroll-margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+    
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        background-color:#171717;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: 0.3s;
+    }
+
+    .navbar a:hover {
+        background: none;
+        color: #D4AF37;
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+
+    .navbar_visible {  
+        left: 0;
+
+
+    }
+    
+    .logo {
+        font-size: 15px;
+    }
+
+    .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+      }
+    
+}
+
+
