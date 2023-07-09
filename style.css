@@ -166,9 +166,9 @@ p {
 
 .contact {
     padding: 90px;
-    padding-top: 40px;
+    padding-top: 150px;
     background: #171717;
-    padding-bottom: 0px;
+    padding-bottom: 250px;
 }
 
 .contact .title {
@@ -337,9 +337,9 @@ h2[id] {
 
       .contact {
         padding: 200px;
-        padding-top: 150px;
+        padding-top: 280px;
         background: #171717;
-        padding-bottom: 250px;
+        padding-bottom: 400px;
     }
     
     .contact .title {
