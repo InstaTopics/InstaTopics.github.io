@@ -74,14 +74,13 @@ body {
 
 .header {
     height: 60vh !important;
-    background: url(img/WLLPPR.png) no-repeat center;
+    background: url(img/WLLPPR.png) no-repeat center ;
     background-attachment: fixed;
     background-size: cover;
     
 }
 
 .title {
-
     margin-bottom: 40px;
     font-size: 320%;
     font-weight: 600;
@@ -167,7 +166,7 @@ p {
 
 .contact {
     padding: 90px;
-    padding-top: 20px;
+    padding-top: 40px;
     background: #171717;
     padding-bottom: 0px;
 }
@@ -197,29 +196,32 @@ p {
     background:  #607b8c;
 }
 
-.btny { 
+/* .btny { 
     display: inline-block;
+    background: linear-gradient(#D4AF37, #ecd793, #D4AF37 );
     margin-top: 0,2px;
     padding: 2% 30px;
     border-radius: 1rem;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
-    background:  #cb86d8;
+    
+
 }
 
 .btny:hover {
     background: #b9b37d;
     transition: 0.5s;
-}
+    
+} */
 
 .btnx {
     display: inline-block;
     
     padding: 2% 30px;
     border-radius: 1rem;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
-    background:  #cb86d8;
+    background:  #171717;
 }
 .btnx:hover {
     background: #b9b37d;
@@ -294,16 +296,15 @@ h2[id] {
 
     }
     
-    .logo {
-        font-size: 15px;
-    }
+   
 
     .nav-toggle:focus:not(:focus-visible) {
         outline: none;
       }
-    
+
       .header {
-        padding: 40px;
+        padding-top: 250px;
+        padding: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -311,7 +312,7 @@ h2[id] {
     
     .header {
         height: 60vh !important;
-        background: url(img/cesar-couto-hNZ6WOOnQpk-unsplash.jpg) no-repeat center ;
+        background: url(img/WLLPPR.png) no-repeat center ;
         background-attachment: fixed;
         background-size: cover;
         
@@ -320,7 +321,7 @@ h2[id] {
     .title {
         margin-top: 80px;
         margin-bottom: 40px;
-        font-size: 320%;
+        font-size: 300%;
         font-weight: 600;
         text-transform: uppercase;
         color: #000000;
@@ -338,7 +339,7 @@ h2[id] {
         padding: 200px;
         padding-top: 150px;
         background: #171717;
-        padding-bottom: 200px;
+        padding-bottom: 250px;
     }
     
     .contact .title {
@@ -358,20 +359,21 @@ h2[id] {
 
     .news {
         padding: 200px;
-        background: url(img/cesar-couto-hNZ6WOOnQpk-unsplash.jpg) no-repeat center;
+        background: url(img/WLLPPR.png) no-repeat center;
         background-attachment: fixed;
         background-size: cover;
         text-align: center;
+        padding-bottom: 250px;
     }
 
     .about {
         padding: 200px;
         background: #171717;
-        padding-bottom: 300px;
+        padding-bottom: 350px;
     }
     
     .about .title {
-        margin-top: 250px;
+        margin-top: 300px;
         margin-bottom: 70px;
         font-size: 220%;
         font-weight: 600;
@@ -409,10 +411,8 @@ h2[id] {
     }
 
     
+
+    
 }
-
-
-
-
 
 
